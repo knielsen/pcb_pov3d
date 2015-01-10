@@ -1,0 +1,633 @@
+Cmp-Mod V01 Created by CvPcb (2013-11-08 BZR 4448)-product date = 2015-01-10T22:53:46 CET
+
+BeginCmp
+TimeStamp = /54A98F12/54A9904F;
+Reference = B1;
+ValeurCmp = SWITCH_4PIN;
+IdModule  = knielsenlib:SWITCH_FSMJSMA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54AEF4F9;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54AEF50B;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54AEF51B;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B151E6;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AE0171;
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A99D22;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9911C;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9912E;
+Reference = C8;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9913E;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A991B6;
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A991CA;
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A99256;
+Reference = C12;
+ValeurCmp = 4.7u;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9901F;
+Reference = C13;
+ValeurCmp = 2.2u;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9A2CA;
+Reference = C14;
+ValeurCmp = 2.2u;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9A2C4;
+Reference = C15;
+ValeurCmp = 2.2u;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A99019;
+Reference = C16;
+ValeurCmp = 2.2u;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9905B;
+Reference = C17;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A99073;
+Reference = C18;
+ValeurCmp = 22p;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9906D;
+Reference = C19;
+ValeurCmp = 22p;
+IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9A8A2;
+Reference = D1;
+ValeurCmp = SML-211UTT86;
+IdModule  = w_smd_leds:Led_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9A89C;
+Reference = D2;
+ValeurCmp = SML-211YTT86;
+IdModule  = w_smd_leds:Led_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9AE61;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = w_pin_strip:pin_strip_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9AE73;
+Reference = L1;
+ValeurCmp = 30@100MHz;
+IdModule  = libcms:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B045B3;
+Reference = LD1;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B046D1;
+Reference = LD2;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B046E5;
+Reference = LD3;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B046F9;
+Reference = LD4;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B0470D;
+Reference = LD5;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04721;
+Reference = LD6;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04735;
+Reference = LD7;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04749;
+Reference = LD8;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B0475D;
+Reference = LD9;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04771;
+Reference = LD10;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04785;
+Reference = LD11;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04799;
+Reference = LD12;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B047AD;
+Reference = LD13;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B047C1;
+Reference = LD14;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B047D5;
+Reference = LD15;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B047E9;
+Reference = LD16;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B047FD;
+Reference = LD17;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04811;
+Reference = LD18;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04825;
+Reference = LD19;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04839;
+Reference = LD20;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B0484D;
+Reference = LD21;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04861;
+Reference = LD22;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04875;
+Reference = LD23;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04889;
+Reference = LD24;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B0489D;
+Reference = LD25;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B048B1;
+Reference = LD26;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B048C5;
+Reference = LD27;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B048D9;
+Reference = LD28;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B048ED;
+Reference = LD29;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04901;
+Reference = LD30;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04915;
+Reference = LD31;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04929;
+Reference = LD32;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04C74;
+Reference = LD33;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04C88;
+Reference = LD34;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04C9C;
+Reference = LD35;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04CB0;
+Reference = LD36;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04CC4;
+Reference = LD37;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04CD8;
+Reference = LD38;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04CEC;
+Reference = LD39;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04D00;
+Reference = LD40;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04D14;
+Reference = LD41;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04D28;
+Reference = LD42;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04D3C;
+Reference = LD43;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04D50;
+Reference = LD44;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04D64;
+Reference = LD45;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04D78;
+Reference = LD46;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04D8C;
+Reference = LD47;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B04DA0;
+Reference = LD48;
+ValeurCmp = RGB;
+IdModule  = knielsenlib:RGB_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADC674;
+Reference = P1;
+ValeurCmp = CONN_4X2;
+IdModule  = w_pin_strip:pin_socket_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B0BE10;
+Reference = P2;
+ValeurCmp = CONN_6;
+IdModule  = w_pin_strip:pin_strip_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADCE95;
+Reference = P3;
+ValeurCmp = MICRO-SD;
+IdModule  = knielsenlib:SD_502774;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9AE88;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = w_pin_strip:pin_strip_2-90;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9AE7F;
+Reference = P5;
+ValeurCmp = KNUSB;
+IdModule  = knielsenlib:10103594-0001LF;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AF57F8;
+Reference = R1;
+ValeurCmp = 22k;
+IdModule  = w_smd_resistors:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AF5864;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = w_smd_resistors:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADC68C;
+Reference = R3;
+ValeurCmp = 47k;
+IdModule  = w_smd_resistors:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54ADCE9B;
+Reference = R4;
+ValeurCmp = 47k;
+IdModule  = w_smd_resistors:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9A896;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = w_smd_resistors:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9A890;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = w_smd_resistors:r_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/53597962;
+Reference = U1;
+ValeurCmp = TLC5955;
+IdModule  = knielsenlib:TLC5955DCA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/53597C39;
+Reference = U2;
+ValeurCmp = TLC5955;
+IdModule  = knielsenlib:TLC5955DCA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/53597C4D;
+Reference = U3;
+ValeurCmp = TLC5955;
+IdModule  = knielsenlib:TLC5955DCA;
+EndCmp
+
+BeginCmp
+TimeStamp = /53591999;
+Reference = U4;
+ValeurCmp = STM32F40X_LQFP64;
+IdModule  = knielsenlib:LQFP_64;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B14FDA;
+Reference = U5;
+ValeurCmp = US4881_HALL;
+IdModule  = discret:TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9A2AC;
+Reference = U6;
+ValeurCmp = LP38691;
+IdModule  = knielsenlib:TO-252-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54A98F12/54A9907B;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = knielsenlib:2-SOJ;
+EndCmp
+
+EndListe
