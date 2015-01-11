@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-11-08 BZR 4448)-product date = 2015-01-10T22:53:46 CET
+Cmp-Mod V01 Created by CvPcb (2013-11-08 BZR 4448)-product date = 2015-01-11T20:19:59 CET
 
 BeginCmp
 TimeStamp = /54A98F12/54A9904F;
@@ -138,6 +138,13 @@ TimeStamp = /54A98F12/54A9906D;
 Reference = C19;
 ValeurCmp = 22p;
 IdModule  = w_smd_cap:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597959/54B1999F;
+Reference = C20;
+ValeurCmp = 100u;
+IdModule  = w_smd_cap:c_elec_6.3x5.8;
 EndCmp
 
 BeginCmp
@@ -537,6 +544,13 @@ TimeStamp = /54A98F12/54A9AE7F;
 Reference = P5;
 ValeurCmp = KNUSB;
 IdModule  = knielsenlib:10103594-0001LF;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B2C91E;
+Reference = P6;
+ValeurCmp = CONN_12;
+IdModule  = w_pin_strip:pin_strip_12-90;
 EndCmp
 
 BeginCmp

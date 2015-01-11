@@ -46,17 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L STM32F40X_LQFP64 U4
-U 1 1 53591999
-P 2200 2200
-F 0 "U4" H 2200 3100 60  0000 C CNN
-F 1 "STM32F40X_LQFP64" H 2200 1300 60  0000 C CNN
-F 2 "" H 2200 1350 60  0000 C CNN
-F 3 "" H 2200 1350 60  0000 C CNN
-	1    2200 2200
-	1    0    0    -1  
-$EndComp
 Text Label 7150 1450 0    60   ~ 0
 sin1
 Text Label 7150 1550 0    60   ~ 0
@@ -312,52 +301,52 @@ Text Label 1450 2250 0    30   ~ 0
 bat_sense
 Text Notes 700  2550 0    30   ~ 0
 (bat_sense limited to\nPA0-7 / PB0-1 / PC0-5)
-Text Notes 3850 4000 0    120  ~ 24
+Text Notes 3900 4000 0    120  ~ 24
 Battery voltage monitoring
 $Comp
 L +5V #PWR06
 U 1 1 54AF57C6
-P 4200 4300
-F 0 "#PWR06" H 4200 4390 20  0001 C CNN
-F 1 "+5V" H 4200 4390 30  0000 C CNN
-F 2 "" H 4200 4300 60  0000 C CNN
-F 3 "" H 4200 4300 60  0000 C CNN
-	1    4200 4300
+P 4250 4300
+F 0 "#PWR06" H 4250 4390 20  0001 C CNN
+F 1 "+5V" H 4250 4390 30  0000 C CNN
+F 2 "" H 4250 4300 60  0000 C CNN
+F 3 "" H 4250 4300 60  0000 C CNN
+	1    4250 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R1
 U 1 1 54AF57F8
-P 4550 4400
-F 0 "R1" V 4630 4400 40  0000 C CNN
-F 1 "22k" V 4557 4401 40  0000 C CNN
-F 2 "" V 4480 4400 30  0000 C CNN
-F 3 "" H 4550 4400 30  0000 C CNN
-	1    4550 4400
+P 4600 4400
+F 0 "R1" V 4680 4400 40  0000 C CNN
+F 1 "22k" V 4607 4401 40  0000 C CNN
+F 2 "" V 4530 4400 30  0000 C CNN
+F 3 "" H 4600 4400 30  0000 C CNN
+	1    4600 4400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R2
 U 1 1 54AF5864
-P 5450 4400
-F 0 "R2" V 5530 4400 40  0000 C CNN
-F 1 "10k" V 5457 4401 40  0000 C CNN
-F 2 "" V 5380 4400 30  0000 C CNN
-F 3 "" H 5450 4400 30  0000 C CNN
-	1    5450 4400
+P 5500 4400
+F 0 "R2" V 5580 4400 40  0000 C CNN
+F 1 "10k" V 5507 4401 40  0000 C CNN
+F 2 "" V 5430 4400 30  0000 C CNN
+F 3 "" H 5500 4400 30  0000 C CNN
+	1    5500 4400
 	0    -1   -1   0   
 $EndComp
-Text Label 5000 4700 1    30   ~ 0
+Text Label 5050 4700 1    30   ~ 0
 bat_sense
 $Comp
 L GND #PWR07
 U 1 1 54AF5B3C
-P 5850 4500
-F 0 "#PWR07" H 5850 4500 30  0001 C CNN
-F 1 "GND" H 5850 4430 30  0001 C CNN
-F 2 "" H 5850 4500 60  0000 C CNN
-F 3 "" H 5850 4500 60  0000 C CNN
-	1    5850 4500
+P 5900 4500
+F 0 "#PWR07" H 5900 4500 30  0001 C CNN
+F 1 "GND" H 5900 4430 30  0001 C CNN
+F 2 "" H 5900 4500 60  0000 C CNN
+F 3 "" H 5900 4500 60  0000 C CNN
+	1    5900 4500
 	1    0    0    -1  
 $EndComp
 Text Label 7150 2050 0    60   ~ 0
@@ -453,8 +442,6 @@ Text Notes 3950 5750 0    120  ~ 24
 Hall sensor
 Text Notes 5800 5750 0    120  ~ 24
 GPIO
-Text Notes 5800 6750 0    360  ~ 72
-?
 $Comp
 L US4881_HALL U5
 U 1 1 54B14FDA
@@ -488,7 +475,7 @@ F 3 "" H 4000 6400 60  0000 C CNN
 	1    4000 6400
 	1    0    0    -1  
 $EndComp
-Text Label 4150 6450 0    60   ~ 12
+Text Label 4150 6450 0    60   ~ 0
 hall
 $Comp
 L +3.3V #PWR011
@@ -501,14 +488,6 @@ F 3 "" H 4000 6100 60  0000 C CNN
 	1    4000 6100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2650 1400
-NoConn ~ 2650 1450
-NoConn ~ 2650 1500
-NoConn ~ 2650 1850
-NoConn ~ 2650 1800
-NoConn ~ 2650 1900
-NoConn ~ 2650 1950
-NoConn ~ 2650 2000
 NoConn ~ 1700 2900
 NoConn ~ 1700 2950
 NoConn ~ 1700 3000
@@ -572,18 +551,18 @@ Wire Wire Line
 Wire Wire Line
 	7450 2050 7100 2050
 Wire Wire Line
-	5850 4400 5850 4500
+	5900 4400 5900 4500
 Wire Wire Line
-	5700 4400 5850 4400
-Connection ~ 5000 4400
+	5750 4400 5900 4400
+Connection ~ 5050 4400
 Wire Wire Line
-	5000 4400 5000 4750
+	5050 4400 5050 4750
 Wire Wire Line
-	4800 4400 5200 4400
+	4850 4400 5250 4400
 Wire Wire Line
-	4200 4400 4300 4400
+	4250 4400 4350 4400
 Wire Wire Line
-	4200 4300 4200 4400
+	4250 4300 4250 4400
 Wire Wire Line
 	1700 2250 1450 2250
 Wire Notes Line
@@ -741,4 +720,160 @@ Wire Notes Line
 	650  840  2650 840 
 Wire Notes Line
 	650  830  2650 830 
+Wire Wire Line
+	2650 1900 2900 1900
+Wire Wire Line
+	2900 1950 2650 1950
+Wire Wire Line
+	2900 2000 2650 2000
+Text Label 2700 1900 0    30   ~ 0
+usart3_tx
+Text Label 2700 1950 0    30   ~ 0
+usart3_rx
+Text Label 2700 2000 0    30   ~ 0
+pb12
+$Comp
+L STM32F40X_LQFP64 U4
+U 1 1 53591999
+P 2200 2200
+F 0 "U4" H 2200 3100 60  0000 C CNN
+F 1 "STM32F40X_LQFP64" H 2200 1300 60  0000 C CNN
+F 2 "" H 2200 1350 60  0000 C CNN
+F 3 "" H 2200 1350 60  0000 C CNN
+	1    2200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1850 2900 1850
+Wire Wire Line
+	2900 1800 2650 1800
+Text Label 2700 1800 0    30   ~ 0
+pb8
+Text Label 2700 1850 0    30   ~ 0
+pb9
+Wire Wire Line
+	2650 1400 2900 1400
+Wire Wire Line
+	2900 1450 2650 1450
+Wire Wire Line
+	2650 1500 2900 1500
+Text Label 2700 1400 0    30   ~ 0
+pb0
+Text Label 2700 1450 0    30   ~ 0
+pb1
+Text Label 2700 1500 0    30   ~ 0
+pb2
+$Comp
+L CONN_12 P6
+U 1 1 54B2C91E
+P 6300 6550
+F 0 "P6" V 6250 6550 60  0000 C CNN
+F 1 "CONN_12" V 6350 6550 60  0000 C CNN
+F 2 "" H 6300 6550 60  0000 C CNN
+F 3 "" H 6300 6550 60  0000 C CNN
+	1    6300 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6000 5950 6000
+Wire Wire Line
+	5600 6200 5950 6200
+Wire Wire Line
+	5600 6300 5950 6300
+Wire Wire Line
+	5950 6400 5600 6400
+Wire Wire Line
+	5600 6500 5950 6500
+Wire Wire Line
+	5600 6600 5950 6600
+Wire Wire Line
+	5600 6700 5950 6700
+Wire Wire Line
+	5950 6800 5600 6800
+Wire Wire Line
+	5600 6900 5950 6900
+Wire Wire Line
+	5450 7000 5950 7000
+Wire Wire Line
+	5450 7100 5950 7100
+Text Label 5650 6200 0    60   ~ 0
+pb0
+Text Label 5650 6300 0    60   ~ 0
+pb1
+Text Label 5650 6400 0    60   ~ 0
+pb2
+Text Label 5650 6500 0    60   ~ 0
+pb8
+Text Label 5650 6600 0    60   ~ 0
+pb9
+Text Label 5650 6700 0    60   ~ 0
+pb12
+Text Label 5600 6800 0    60   ~ 0
+usart3_tx
+Text Label 5600 6900 0    60   ~ 0
+usart3_rx
+Wire Wire Line
+	5450 6000 5450 6050
+$Comp
+L GND #PWR012
+U 1 1 54B2D861
+P 5450 6050
+F 0 "#PWR012" H 5450 6050 30  0001 C CNN
+F 1 "GND" H 5450 5980 30  0001 C CNN
+F 2 "" H 5450 6050 60  0000 C CNN
+F 3 "" H 5450 6050 60  0000 C CNN
+	1    5450 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 7100 5450 7150
+$Comp
+L GND #PWR013
+U 1 1 54B2D97E
+P 5450 7150
+F 0 "#PWR013" H 5450 7150 30  0001 C CNN
+F 1 "GND" H 5450 7080 30  0001 C CNN
+F 2 "" H 5450 7150 60  0000 C CNN
+F 3 "" H 5450 7150 60  0000 C CNN
+	1    5450 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 7000 5450 6950
+$Comp
+L +3.3V #PWR014
+U 1 1 54B2DA9C
+P 5450 6950
+F 0 "#PWR014" H 5450 6910 30  0001 C CNN
+F 1 "+3.3V" H 5450 7060 30  0000 C CNN
+F 2 "" H 5450 6950 60  0000 C CNN
+F 3 "" H 5450 6950 60  0000 C CNN
+	1    5450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR015
+U 1 1 54B2DAED
+P 5500 6150
+F 0 "#PWR015" H 5500 6110 30  0001 C CNN
+F 1 "+3.3V" H 5500 6260 30  0000 C CNN
+F 2 "" H 5500 6150 60  0000 C CNN
+F 3 "" H 5500 6150 60  0000 C CNN
+	1    5500 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 6150 5500 6100
+Wire Wire Line
+	5500 6100 5950 6100
+Text Notes 2650 2600 0    40   ~ 0
+The sclk*, sin*, sout* and gsclk*\nare the high-speed signals. They\nshould be prioritised for optimal\nrouting.
+Wire Notes Line
+	2600 2500 3700 2500
+Wire Notes Line
+	3700 2500 3700 2800
+Wire Notes Line
+	3700 2800 2600 2800
+Wire Notes Line
+	2600 2800 2600 2500
 $EndSCHEMATC
