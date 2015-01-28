@@ -32,7 +32,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:w_opto
 LIBS:pcb_pov3d-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -133,7 +133,7 @@ gsclk1
 Text HLabel 2100 1200 0    60   Output ~ 0
 sout1
 $Comp
-L CSMALL C1
+L Csmall C1
 U 1 1 54AEF4F9
 P 9700 1400
 F 0 "C1" H 9725 1450 30  0000 L CNN
@@ -144,7 +144,7 @@ F 3 "" H 9700 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C2
+L Csmall C2
 U 1 1 54AEF50B
 P 9950 1400
 F 0 "C2" H 9975 1450 30  0000 L CNN
@@ -155,7 +155,7 @@ F 3 "" H 9950 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C3
+L Csmall C3
 U 1 1 54AEF51B
 P 10200 1400
 F 0 "C3" H 10225 1450 30  0000 L CNN

@@ -32,7 +32,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:w_opto
 LIBS:pcb_pov3d-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -131,7 +131,7 @@ $EndComp
 Wire Wire Line
 	2400 1850 2500 1850
 $Comp
-L CSMALL C16
+L Csmall C16
 U 1 1 54A99019
 P 2600 1850
 F 0 "C16" H 2625 1900 30  0000 L CNN
@@ -142,7 +142,7 @@ F 3 "" H 2600 1850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CSMALL C13
+L Csmall C13
 U 1 1 54A9901F
 P 2600 1700
 F 0 "C13" H 2625 1750 30  0000 L CNN
@@ -248,7 +248,7 @@ F 3 "" H 3300 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C17
+L Csmall C17
 U 1 1 54A9905B
 P 3100 2000
 F 0 "C17" H 3125 2050 30  0000 L CNN
@@ -281,7 +281,7 @@ F 3 "" H 3250 2950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C19
+L Csmall C19
 U 1 1 54A9906D
 P 3150 2800
 F 0 "C19" H 3175 2850 30  0000 L CNN
@@ -292,7 +292,7 @@ F 3 "" H 3150 2800 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CSMALL C18
+L Csmall C18
 U 1 1 54A99073
 P 3150 2200
 F 0 "C18" H 3175 2250 30  0000 L CNN
@@ -324,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 1700 1450 1400
 $Comp
-L CSMALL C7
+L Csmall C7
 U 1 1 54A9911C
 P 1450 1300
 F 0 "C7" H 1475 1350 30  0000 L CNN
@@ -335,7 +335,7 @@ F 3 "" H 1450 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C8
+L Csmall C8
 U 1 1 54A9912E
 P 1650 1300
 F 0 "C8" H 1675 1350 30  0000 L CNN
@@ -346,7 +346,7 @@ F 3 "" H 1650 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C9
+L Csmall C9
 U 1 1 54A9913E
 P 1850 1300
 F 0 "C9" H 1875 1350 30  0000 L CNN
@@ -360,7 +360,7 @@ Wire Wire Line
 	1250 1400 2450 1400
 Connection ~ 1650 1400
 $Comp
-L CSMALL C10
+L Csmall C10
 U 1 1 54A991B6
 P 2050 1300
 F 0 "C10" H 2075 1350 30  0000 L CNN
@@ -371,7 +371,7 @@ F 3 "" H 2050 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C11
+L Csmall C11
 U 1 1 54A991CA
 P 2250 1300
 F 0 "C11" H 2275 1350 30  0000 L CNN
@@ -384,7 +384,7 @@ $EndComp
 Connection ~ 1850 1400
 Connection ~ 2050 1400
 $Comp
-L CSMALL C12
+L Csmall C12
 U 1 1 54A99256
 P 2450 1300
 F 0 "C12" H 2475 1350 30  0000 L CNN
@@ -416,7 +416,7 @@ F 3 "" H 2650 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C6
+L Csmall C6
 U 1 1 54A99D22
 P 1250 1300
 F 0 "C6" H 1275 1350 30  0000 L CNN
