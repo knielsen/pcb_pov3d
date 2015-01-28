@@ -330,11 +330,11 @@ Text Label 1450 2550 0    30   ~ 0
 lat3
 Text Label 1450 2600 0    30   ~ 0
 user_led
-Text Notes 800  2300 0    60   ~ 0
+Text Notes 800  2450 0    60   ~ 0
 These can\nbe moved\nelsewhere
 Text Label 1450 2250 0    30   ~ 0
 bat_sense
-Text Notes 700  2550 0    30   ~ 0
+Text Notes 700  2575 0    30   ~ 0
 (bat_sense limited to\nPA0-7 / PB0-1 / PC0-5)
 Text Notes 3900 4000 0    120  ~ 24
 Battery voltage monitoring
@@ -901,7 +901,7 @@ Wire Wire Line
 	5500 6050 5500 6000
 Wire Wire Line
 	5500 6000 5950 6000
-Text Notes 2650 2600 0    40   ~ 0
+Text Notes 2650 2775 0    40   ~ 0
 The sclk*, sin*, sout* and gsclk*\nare the high-speed signals. They\nshould be prioritised for optimal\nrouting.
 Wire Notes Line
 	2600 2500 3700 2500
@@ -911,7 +911,7 @@ Wire Notes Line
 	3700 2800 2600 2800
 Wire Notes Line
 	2600 2800 2600 2500
-Text Notes 6600 6000 0    60   ~ 0
+Text Notes 6600 6350 0    60   ~ 0
 The pb* generic\nGPIOs could be\nswapped for some\nof the pc* if that\nsimplifies routing
 Wire Notes Line
 	6550 5850 7500 5850
