@@ -296,7 +296,7 @@ nrf_mosi
 Text Label 2700 1750 0    30   ~ 0
 nrf_miso
 $Comp
-L CSMALL C5
+L Csmall C5
 U 1 1 54AE0171
 P 2800 6300
 F 0 "C5" H 2825 6350 30  0000 L CNN
@@ -489,7 +489,7 @@ F 3 "" H 4650 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CSMALL C4
+L Csmall C4
 U 1 1 54B151E6
 P 4100 6150
 F 0 "C4" H 4125 6200 30  0000 L CNN
