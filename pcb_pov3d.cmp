@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-11-08 BZR 4448)-product date = 2015-01-11T20:19:59 CET
+Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5391)-product   date = Wed Jan 28 18:08:15 2015
 
 BeginCmp
 TimeStamp = /54A98F12/54A9904F;
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /54A98F12/54A9AE73;
 Reference = L1;
 ValeurCmp = 30@100MHz;
-IdModule  = libcms:SM0603;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -627,7 +627,7 @@ BeginCmp
 TimeStamp = /54B14FDA;
 Reference = U5;
 ValeurCmp = US4881_HALL;
-IdModule  = discret:TO92;
+IdModule  = Discret:TO92;
 EndCmp
 
 BeginCmp

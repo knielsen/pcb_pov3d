@@ -31,8 +31,43 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:w_opto
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:logo
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
 LIBS:pcb_pov3d-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -116,7 +151,7 @@ U 1 1 54ADC674
 P 2300 4350
 F 0 "P1" H 2300 4600 50  0000 C CNN
 F 1 "CONN_4X2" V 2300 4350 40  0000 C CNN
-F 2 "" H 2300 4350 60  0000 C CNN
+F 2 "w_pin_strip:pin_socket_4x2" H 2300 4350 60  0001 C CNN
 F 3 "" H 2300 4350 60  0000 C CNN
 	1    2300 4350
 	1    0    0    1   
@@ -161,7 +196,7 @@ U 1 1 54ADC68C
 P 3300 4650
 F 0 "R3" V 3380 4650 40  0000 C CNN
 F 1 "47k" V 3307 4651 40  0000 C CNN
-F 2 "" V 3230 4650 30  0000 C CNN
+F 2 "w_smd_resistors:r_0805" V 3230 4650 30  0001 C CNN
 F 3 "" H 3300 4650 30  0000 C CNN
 	1    3300 4650
 	1    0    0    -1  
@@ -224,7 +259,7 @@ U 1 1 54ADCE95
 P 1900 6400
 F 0 "P3" H 1900 5800 60  0000 C CNN
 F 1 "MICRO-SD" H 1900 7000 60  0000 C CNN
-F 2 "" H 1900 6400 60  0001 C CNN
+F 2 "knielsenlib:SD_502774" H 1900 6400 60  0001 C CNN
 F 3 "" H 1900 6400 60  0001 C CNN
 	1    1900 6400
 	1    0    0    -1  
@@ -235,7 +270,7 @@ U 1 1 54ADCE9B
 P 2950 6000
 F 0 "R4" V 3030 6000 40  0000 C CNN
 F 1 "47k" V 2957 6001 40  0000 C CNN
-F 2 "" V 2880 6000 30  0000 C CNN
+F 2 "w_smd_resistors:r_0805" V 2880 6000 30  0001 C CNN
 F 3 "" H 2950 6000 30  0000 C CNN
 	1    2950 6000
 	0    -1   -1   0   
@@ -320,7 +355,7 @@ U 1 1 54AF57F8
 P 4600 4400
 F 0 "R1" V 4680 4400 40  0000 C CNN
 F 1 "22k" V 4607 4401 40  0000 C CNN
-F 2 "" V 4530 4400 30  0000 C CNN
+F 2 "w_smd_resistors:r_0805" V 4530 4400 30  0001 C CNN
 F 3 "" H 4600 4400 30  0000 C CNN
 	1    4600 4400
 	0    -1   -1   0   
@@ -331,7 +366,7 @@ U 1 1 54AF5864
 P 5500 4400
 F 0 "R2" V 5580 4400 40  0000 C CNN
 F 1 "10k" V 5507 4401 40  0000 C CNN
-F 2 "" V 5430 4400 30  0000 C CNN
+F 2 "w_smd_resistors:r_0805" V 5430 4400 30  0001 C CNN
 F 3 "" H 5500 4400 30  0000 C CNN
 	1    5500 4400
 	0    -1   -1   0   
@@ -400,7 +435,7 @@ U 1 1 54B0BE10
 P 8300 4450
 F 0 "P2" V 8250 4450 60  0000 C CNN
 F 1 "CONN_6" V 8350 4450 60  0000 C CNN
-F 2 "" H 8300 4450 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_6" H 8300 4450 60  0001 C CNN
 F 3 "" H 8300 4450 60  0000 C CNN
 	1    8300 4450
 	1    0    0    -1  
@@ -448,7 +483,7 @@ U 1 1 54B14FDA
 P 4650 6200
 F 0 "U5" H 4650 5850 60  0000 C CNN
 F 1 "US4881_HALL" H 4650 6400 60  0000 C CNN
-F 2 "" H 4650 6200 60  0000 C CNN
+F 2 "Discret:TO92" H 4650 6200 60  0001 C CNN
 F 3 "" H 4650 6200 60  0000 C CNN
 	1    4650 6200
 	1    0    0    -1  
@@ -738,7 +773,7 @@ U 1 1 53591999
 P 2200 2200
 F 0 "U4" H 2200 3100 60  0000 C CNN
 F 1 "STM32F40X_LQFP64" H 2200 1300 60  0000 C CNN
-F 2 "" H 2200 1350 60  0000 C CNN
+F 2 "knielsenlib:LQFP_64" H 2200 1350 60  0001 C CNN
 F 3 "" H 2200 1350 60  0000 C CNN
 	1    2200 2200
 	1    0    0    -1  
@@ -769,7 +804,7 @@ U 1 1 54B2C91E
 P 6300 6450
 F 0 "P6" V 6250 6450 60  0000 C CNN
 F 1 "CONN_12" V 6350 6450 60  0000 C CNN
-F 2 "" H 6300 6450 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_12-90" H 6300 6450 60  0001 C CNN
 F 3 "" H 6300 6450 60  0000 C CNN
 	1    6300 6450
 	1    0    0    -1  
