@@ -309,11 +309,11 @@ $EndComp
 Text Label 1450 1800 0    30   ~ 0
 nrf_ck
 Text Label 1450 1400 0    30   ~ 0
-gsclk1
+gsclk3
 Text Label 1450 1450 0    30   ~ 0
 gsclk2
 Text Label 1450 1500 0    30   ~ 0
-gsclk3
+gsclk1
 Text Label 1450 1550 0    30   ~ 0
 hall
 Text Label 1450 2300 0    30   ~ 0
