@@ -1600,53 +1600,53 @@ led48g
 Text Label 10150 6100 0    30   ~ 0
 led48b
 Text Label 1850 2050 0    30   ~ 0
-t1o4b
+led9b
 Text Label 1850 2100 0    30   ~ 0
-t1o4r
+led9r
 Text Label 1850 2150 0    30   ~ 0
-t1o4g
+led9g
 Text Label 1850 2200 0    30   ~ 0
-t1o0b
+led10b
 Text Label 1850 2250 0    30   ~ 0
-t1o0r
+led10r
 Text Label 1850 2300 0    30   ~ 0
-t1o0g
+led10g
 Text Label 1850 2350 0    30   ~ 0
-t1o5b
+led15b
 Text Label 1850 2400 0    30   ~ 0
-t1o5r
+led15r
 Text Label 1850 2450 0    30   ~ 0
-t1o5g
+led15g
 Text Label 1850 2500 0    30   ~ 0
-t1o1b
+led16b
 Text Label 1850 2550 0    30   ~ 0
-t1o1r
+led16r
 Text Label 1850 2600 0    30   ~ 0
-t1o1g
+led16g
 Text Label 1850 2650 0    30   ~ 0
-t1o2b
+led17b
 Text Label 1850 2700 0    30   ~ 0
-t1o2r
+led17r
 Text Label 1850 2750 0    30   ~ 0
-t1o2g
+led17g
 Text Label 1850 2800 0    30   ~ 0
-t1o6b
+led24b
 Text Label 1850 2850 0    30   ~ 0
-t1o6r
+led24r
 Text Label 1850 2900 0    30   ~ 0
-t1o6g
+led24g
 Text Label 1850 2950 0    30   ~ 0
-t1o3b
+led23b
 Text Label 1850 3000 0    30   ~ 0
-t1o3r
+led23r
 Text Label 1850 3050 0    30   ~ 0
-t1o3g
+led23g
 Text Label 1850 3100 0    30   ~ 0
-t1o7b
+led22b
 Text Label 1850 3150 0    30   ~ 0
-t1o7r
+led22r
 Text Label 1850 3200 0    30   ~ 0
-t1o7g
+led22g
 Text Label 5450 1300 0    60   ~ 0
 gsclk2
 Text Label 5450 1400 0    60   ~ 0
@@ -1688,245 +1688,245 @@ sout3
 Text Label 8650 1200 0    60   ~ 0
 sout3
 Text Label 3000 2050 0    30   ~ 0
-t1o8b
+led8b
 Text Label 3000 2100 0    30   ~ 0
-t1o8r
+led8r
 Text Label 3000 2150 0    30   ~ 0
-t1o8g
+led8g
 Text Label 3000 2200 0    30   ~ 0
-t1o12b
+led3b
 Text Label 3000 2250 0    30   ~ 0
-t1o12r
+led3r
 Text Label 3000 2300 0    30   ~ 0
-t1o12g
+led3g
 Text Label 3000 2350 0    30   ~ 0
-t1o9b
+led4b
 Text Label 3000 2400 0    30   ~ 0
-t1o9r
+led4r
 Text Label 3000 2450 0    30   ~ 0
-t1o9g
+led4g
 Text Label 3000 2500 0    30   ~ 0
-t1o13b
+led14b
 Text Label 3000 2550 0    30   ~ 0
-t1o13r
+led14r
 Text Label 3000 2600 0    30   ~ 0
-t1o13g
+led14g
 Text Label 3000 2650 0    30   ~ 0
-t1o14b
+led7b
 Text Label 3000 2700 0    30   ~ 0
-t1o14r
+led7r
 Text Label 3000 2750 0    30   ~ 0
-t1o14g
+led7g
 Text Label 3000 2800 0    30   ~ 0
-t1o10b
+led13b
 Text Label 3000 2850 0    30   ~ 0
-t1o10r
+led13r
 Text Label 3000 2900 0    30   ~ 0
-t1o10g
+led13g
 Text Label 3000 2950 0    30   ~ 0
-t1o15b
+led20b
 Text Label 3000 3000 0    30   ~ 0
-t1o15r
+led20r
 Text Label 3000 3050 0    30   ~ 0
-t1o15g
+led20g
 Text Label 3000 3100 0    30   ~ 0
-t1o11b
+led21b
 Text Label 3000 3150 0    30   ~ 0
-t1o11r
+led21r
 Text Label 3000 3200 0    30   ~ 0
-t1o11g
+led21g
 Text Label 5150 2050 0    30   ~ 0
-t2o4b
+led1b
 Text Label 5150 2100 0    30   ~ 0
-t2o4r
+led1r
 Text Label 5150 2150 0    30   ~ 0
-t2o4g
+led1g
 Text Label 5150 2200 0    30   ~ 0
-t2o0b
+led5b
 Text Label 5150 2250 0    30   ~ 0
-t2o0r
+led5r
 Text Label 5150 2300 0    30   ~ 0
-t2o0g
+led5g
 Text Label 5150 2350 0    30   ~ 0
-t2o5b
+led11b
 Text Label 5150 2400 0    30   ~ 0
-t2o5r
+led11r
 Text Label 5150 2450 0    30   ~ 0
-t2o5g
+led11g
 Text Label 5150 2500 0    30   ~ 0
-t2o1b
+led2b
 Text Label 5150 2550 0    30   ~ 0
-t2o1r
+led2r
 Text Label 5150 2600 0    30   ~ 0
-t2o1g
+led2g
 Text Label 5150 2650 0    30   ~ 0
-t2o2b
+led6b
 Text Label 5150 2700 0    30   ~ 0
-t2o2r
+led6r
 Text Label 5150 2750 0    30   ~ 0
-t2o2g
+led6g
 Text Label 5150 2800 0    30   ~ 0
-t2o6b
+led12b
 Text Label 5150 2850 0    30   ~ 0
-t2o6r
+led12r
 Text Label 5150 2900 0    30   ~ 0
-t2o6g
+led12g
 Text Label 5150 2950 0    30   ~ 0
-t2o3b
+led18b
 Text Label 5150 3000 0    30   ~ 0
-t2o3r
+led18r
 Text Label 5150 3050 0    30   ~ 0
-t2o3g
+led18g
 Text Label 5150 3100 0    30   ~ 0
-t2o7b
+led19b
 Text Label 5150 3150 0    30   ~ 0
-t2o7r
+led19r
 Text Label 5150 3200 0    30   ~ 0
-t2o7g
+led19g
 Text Label 6300 2050 0    30   ~ 0
-t2o8b
+led45b
 Text Label 6300 2100 0    30   ~ 0
-t2o8r
+led45r
 Text Label 6300 2150 0    30   ~ 0
-t2o8g
+led45g
 Text Label 6300 2200 0    30   ~ 0
-t2o12b
+led39b
 Text Label 6300 2250 0    30   ~ 0
-t2o12r
+led39r
 Text Label 6300 2300 0    30   ~ 0
-t2o12g
+led39g
 Text Label 6300 2350 0    30   ~ 0
-t2o9b
+led32b
 Text Label 6300 2400 0    30   ~ 0
-t2o9r
+led32r
 Text Label 6300 2450 0    30   ~ 0
-t2o9g
+led32g
 Text Label 6300 2500 0    30   ~ 0
-t2o13b
+led46b
 Text Label 6300 2550 0    30   ~ 0
-t2o13r
+led46r
 Text Label 6300 2600 0    30   ~ 0
-t2o13g
+led46g
 Text Label 6300 2650 0    30   ~ 0
-t2o14b
+led40b
 Text Label 6300 2700 0    30   ~ 0
-t2o14r
+led40r
 Text Label 6300 2750 0    30   ~ 0
-t2o14g
+led40g
 Text Label 6300 2800 0    30   ~ 0
-t2o10b
+led33b
 Text Label 6300 2850 0    30   ~ 0
-t2o10r
+led33r
 Text Label 6300 2900 0    30   ~ 0
-t2o10g
+led33g
 Text Label 6300 2950 0    30   ~ 0
-t2o15b
+led25b
 Text Label 6300 3000 0    30   ~ 0
-t2o15r
+led25r
 Text Label 6300 3050 0    30   ~ 0
-t2o15g
+led25g
 Text Label 6300 3100 0    30   ~ 0
-t2o11b
+led26b
 Text Label 6300 3150 0    30   ~ 0
-t2o11r
+led26r
 Text Label 6300 3200 0    30   ~ 0
-t2o11g
+led26g
 Text Label 8350 2050 0    30   ~ 0
-t3o4b
+led42b
 Text Label 8350 2100 0    30   ~ 0
-t3o4r
+led42r
 Text Label 8350 2150 0    30   ~ 0
-t3o4g
+led42g
 Text Label 8350 2200 0    30   ~ 0
-t3o0b
+led47b
 Text Label 8350 2250 0    30   ~ 0
-t3o0r
+led47r
 Text Label 8350 2300 0    30   ~ 0
-t3o0g
+led47g
 Text Label 8350 2350 0    30   ~ 0
-t3o5b
+led48b
 Text Label 8350 2400 0    30   ~ 0
-t3o5r
+led48r
 Text Label 8350 2450 0    30   ~ 0
-t3o5g
+led48g
 Text Label 8350 2500 0    30   ~ 0
-t3o1b
+led35b
 Text Label 8350 2550 0    30   ~ 0
-t3o1r
+led35r
 Text Label 8350 2600 0    30   ~ 0
-t3o1g
+led35g
 Text Label 8350 2650 0    30   ~ 0
-t3o2b
+led41b
 Text Label 8350 2700 0    30   ~ 0
-t3o2r
+led41r
 Text Label 8350 2750 0    30   ~ 0
-t3o2g
+led41g
 Text Label 8350 2800 0    30   ~ 0
-t3o6b
+led34b
 Text Label 8350 2850 0    30   ~ 0
-t3o6r
+led34r
 Text Label 8350 2900 0    30   ~ 0
-t3o6g
+led34g
 Text Label 8350 2950 0    30   ~ 0
-t3o3b
+led27b
 Text Label 8350 3000 0    30   ~ 0
-t3o3r
+led27r
 Text Label 8350 3050 0    30   ~ 0
-t3o3g
+led27g
 Text Label 8350 3100 0    30   ~ 0
-t3o7b
+led28b
 Text Label 8350 3150 0    30   ~ 0
-t3o7r
+led28r
 Text Label 8350 3200 0    30   ~ 0
-t3o7g
+led28g
 Text Label 9500 2050 0    30   ~ 0
-t3o8b
+led43b
 Text Label 9500 2100 0    30   ~ 0
-t3o8r
+led43r
 Text Label 9500 2150 0    30   ~ 0
-t3o8g
+led43g
 Text Label 9500 2200 0    30   ~ 0
-t3o12b
+led44b
 Text Label 9500 2250 0    30   ~ 0
-t3o12r
+led44r
 Text Label 9500 2300 0    30   ~ 0
-t3o12g
+led44g
 Text Label 9500 2350 0    30   ~ 0
-t3o9b
+led36b
 Text Label 9500 2400 0    30   ~ 0
-t3o9r
+led36r
 Text Label 9500 2450 0    30   ~ 0
-t3o9g
+led36g
 Text Label 9500 2500 0    30   ~ 0
-t3o13b
+led37b
 Text Label 9500 2550 0    30   ~ 0
-t3o13r
+led37r
 Text Label 9500 2600 0    30   ~ 0
-t3o13g
+led37g
 Text Label 9500 2650 0    30   ~ 0
-t3o14b
+led38b
 Text Label 9500 2700 0    30   ~ 0
-t3o14r
+led38r
 Text Label 9500 2750 0    30   ~ 0
-t3o14g
+led38g
 Text Label 9500 2800 0    30   ~ 0
-t3o10b
+led31b
 Text Label 9500 2850 0    30   ~ 0
-t3o10r
+led31r
 Text Label 9500 2900 0    30   ~ 0
-t3o10g
+led31g
 Text Label 9500 2950 0    30   ~ 0
-t3o15b
+led30b
 Text Label 9500 3000 0    30   ~ 0
-t3o15r
+led30r
 Text Label 9500 3050 0    30   ~ 0
-t3o15g
+led30g
 Text Label 9500 3100 0    30   ~ 0
-t3o11b
+led29b
 Text Label 9500 3150 0    30   ~ 0
-t3o11r
+led29r
 Text Label 9500 3200 0    30   ~ 0
-t3o11g
+led29g
 $Comp
 L C C20
 U 1 1 54B1999F
