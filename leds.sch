@@ -1892,17 +1892,17 @@ led44r
 Text Label 9500 2300 0    30   ~ 0
 led44g
 Text Label 9500 2350 0    30   ~ 0
-led36b
-Text Label 9500 2400 0    30   ~ 0
-led36r
-Text Label 9500 2450 0    30   ~ 0
-led36g
-Text Label 9500 2500 0    30   ~ 0
 led37b
-Text Label 9500 2550 0    30   ~ 0
+Text Label 9500 2400 0    30   ~ 0
 led37r
-Text Label 9500 2600 0    30   ~ 0
+Text Label 9500 2450 0    30   ~ 0
 led37g
+Text Label 9500 2500 0    30   ~ 0
+led36b
+Text Label 9500 2550 0    30   ~ 0
+led36r
+Text Label 9500 2600 0    30   ~ 0
+led36g
 Text Label 9500 2650 0    30   ~ 0
 led38b
 Text Label 9500 2700 0    30   ~ 0

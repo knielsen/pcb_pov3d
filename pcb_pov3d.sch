@@ -322,12 +322,10 @@ Text Label 1450 2350 0    30   ~ 0
 nrf_ce
 Text Label 1450 2400 0    30   ~ 0
 nrf_irq
-Text Label 1450 2450 0    30   ~ 0
-lat1
 Text Label 1450 2500 0    30   ~ 0
-lat2
-Text Label 1450 2550 0    30   ~ 0
 lat3
+Text Label 1450 2550 0    30   ~ 0
+lat2
 Text Label 1450 2600 0    30   ~ 0
 user_led
 Text Notes 800  2450 0    60   ~ 0
@@ -528,7 +526,6 @@ NoConn ~ 1700 2950
 NoConn ~ 1700 3000
 Text Label 1450 2200 0    30   ~ 0
 sd_cd
-NoConn ~ 1700 1600
 Text Notes 650  800  0    180  ~ 36
 POV-3D Board
 Wire Notes Line
@@ -618,8 +615,6 @@ Wire Wire Line
 	1450 2550 1700 2550
 Wire Wire Line
 	1450 2500 1700 2500
-Wire Wire Line
-	1450 2450 1700 2450
 Wire Wire Line
 	1450 2400 1700 2400
 Wire Wire Line
@@ -921,4 +916,9 @@ Wire Notes Line
 	7500 6400 6550 6400
 Wire Notes Line
 	6550 6400 6550 5850
+Wire Wire Line
+	1700 1600 1450 1600
+Text Label 1450 1600 0    30   ~ 0
+lat1
+NoConn ~ 1700 2450
 $EndSCHEMATC
