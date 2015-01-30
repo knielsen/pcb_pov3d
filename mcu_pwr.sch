@@ -786,11 +786,11 @@ F 3 "" H 1850 3950 60  0000 C CNN
 	1    1850 3950
 	-1   0    0    1   
 $EndComp
-Text HLabel 2750 4650 2    60   BiDi ~ 0
+Text HLabel 2750 4850 2    60   BiDi ~ 0
 usb_id
 Text HLabel 2750 4750 2    60   BiDi ~ 0
 usb_dp
-Text HLabel 2750 4850 2    60   BiDi ~ 0
+Text HLabel 2750 4650 2    60   BiDi ~ 0
 usb_dm
 Text HLabel 5250 4550 0    60   Input ~ 0
 user_led
