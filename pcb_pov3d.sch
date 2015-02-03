@@ -326,7 +326,7 @@ Text Label 1450 2500 0    30   ~ 0
 lat3
 Text Label 1450 2550 0    30   ~ 0
 lat2
-Text Label 1450 2600 0    30   ~ 0
+Text Label 1450 2900 0    30   ~ 0
 user_led
 Text Notes 800  2450 0    60   ~ 0
 These can\nbe moved\nelsewhere
@@ -521,13 +521,112 @@ F 3 "" H 4000 6000 60  0000 C CNN
 	1    4000 6000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1700 2900
-NoConn ~ 1700 2950
-NoConn ~ 1700 3000
+NoConn ~ 1700 2600
 Text Label 1450 2200 0    30   ~ 0
 sd_cd
 Text Notes 650  800  0    180  ~ 36
 POV-3D Board
+Text Label 2700 1900 0    30   ~ 0
+usart3_tx
+Text Label 2700 1950 0    30   ~ 0
+usart3_rx
+$Comp
+L STM32F40X_LQFP64 U4
+U 1 1 53591999
+P 2200 2200
+F 0 "U4" H 2200 3100 60  0000 C CNN
+F 1 "STM32F40X_LQFP64" H 2200 1300 60  0000 C CNN
+F 2 "knielsenlib:LQFP_64" H 2200 1350 60  0001 C CNN
+F 3 "" H 2200 1350 60  0000 C CNN
+	1    2200 2200
+	1    0    0    -1  
+$EndComp
+Text Label 2700 1800 0    30   ~ 0
+pb8
+Text Label 2700 1850 0    30   ~ 0
+pb9
+Text Label 2700 1400 0    30   ~ 0
+pb0
+Text Label 2700 1450 0    30   ~ 0
+pb1
+$Comp
+L CONN_12 P6
+U 1 1 54B2C91E
+P 6300 6450
+F 0 "P6" V 6250 6450 60  0000 C CNN
+F 1 "CONN_12" V 6350 6450 60  0000 C CNN
+F 2 "w_pin_strip:pin_strip_12-90" H 6300 6450 60  0001 C CNN
+F 3 "" H 6300 6450 60  0000 C CNN
+	1    6300 6450
+	1    0    0    -1  
+$EndComp
+Text Label 5650 6100 0    60   ~ 0
+pb0
+Text Label 5650 6200 0    60   ~ 0
+pb1
+Text Label 5650 6700 0    60   ~ 0
+pc14
+Text Label 5650 6500 0    60   ~ 0
+pb8
+Text Label 5650 6600 0    60   ~ 0
+pb9
+Text Label 5650 6800 0    60   ~ 0
+pc15
+Text Label 5650 6300 0    60   ~ 0
+usart3_tx
+Text Label 5650 6400 0    60   ~ 0
+usart3_rx
+$Comp
+L GND #PWR012
+U 1 1 54B2D861
+P 5450 5950
+F 0 "#PWR012" H 5450 5950 30  0001 C CNN
+F 1 "GND" H 5450 5880 30  0001 C CNN
+F 2 "" H 5450 5950 60  0000 C CNN
+F 3 "" H 5450 5950 60  0000 C CNN
+	1    5450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR013
+U 1 1 54B2D97E
+P 5450 7050
+F 0 "#PWR013" H 5450 7050 30  0001 C CNN
+F 1 "GND" H 5450 6980 30  0001 C CNN
+F 2 "" H 5450 7050 60  0000 C CNN
+F 3 "" H 5450 7050 60  0000 C CNN
+	1    5450 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR014
+U 1 1 54B2DA9C
+P 5450 6850
+F 0 "#PWR014" H 5450 6810 30  0001 C CNN
+F 1 "+3.3V" H 5450 6960 30  0000 C CNN
+F 2 "" H 5450 6850 60  0000 C CNN
+F 3 "" H 5450 6850 60  0000 C CNN
+	1    5450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR015
+U 1 1 54B2DAED
+P 5500 6050
+F 0 "#PWR015" H 5500 6010 30  0001 C CNN
+F 1 "+3.3V" H 5500 6160 30  0000 C CNN
+F 2 "" H 5500 6050 60  0000 C CNN
+F 3 "" H 5500 6050 60  0000 C CNN
+	1    5500 6050
+	-1   0    0    1   
+$EndComp
+Text Notes 2650 2775 0    40   ~ 0
+The sclk*, sin*, sout* and gsclk*\nare the high-speed signals. They\nshould be prioritised for optimal\nrouting.
+Text Notes 6600 6350 0    60   ~ 0
+The pb* generic\nGPIOs could be\nswapped for some\nof the pc* if that\nsimplifies routing
+Text Label 1450 1600 0    30   ~ 0
+lat1
+NoConn ~ 1700 2450
 Wire Notes Line
 	650  850  2650 850 
 Wire Wire Line
@@ -609,8 +708,6 @@ Wire Notes Line
 	1350 2200 1350 2350
 Wire Notes Line
 	1400 2150 1350 2200
-Wire Wire Line
-	1450 2600 1700 2600
 Wire Wire Line
 	1450 2550 1700 2550
 Wire Wire Line
@@ -755,55 +852,13 @@ Wire Wire Line
 Wire Wire Line
 	2900 1950 2650 1950
 Wire Wire Line
-	2900 2000 2650 2000
-Text Label 2700 1900 0    30   ~ 0
-usart3_tx
-Text Label 2700 1950 0    30   ~ 0
-usart3_rx
-Text Label 2700 2000 0    30   ~ 0
-pb12
-$Comp
-L STM32F40X_LQFP64 U4
-U 1 1 53591999
-P 2200 2200
-F 0 "U4" H 2200 3100 60  0000 C CNN
-F 1 "STM32F40X_LQFP64" H 2200 1300 60  0000 C CNN
-F 2 "knielsenlib:LQFP_64" H 2200 1350 60  0001 C CNN
-F 3 "" H 2200 1350 60  0000 C CNN
-	1    2200 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	2650 1850 2900 1850
 Wire Wire Line
 	2900 1800 2650 1800
-Text Label 2700 1800 0    30   ~ 0
-pb8
-Text Label 2700 1850 0    30   ~ 0
-pb9
 Wire Wire Line
 	2650 1400 2900 1400
 Wire Wire Line
 	2900 1450 2650 1450
-Wire Wire Line
-	2650 1500 2900 1500
-Text Label 2700 1400 0    30   ~ 0
-pb0
-Text Label 2700 1450 0    30   ~ 0
-pb1
-Text Label 2700 1500 0    30   ~ 0
-pb2
-$Comp
-L CONN_12 P6
-U 1 1 54B2C91E
-P 6300 6450
-F 0 "P6" V 6250 6450 60  0000 C CNN
-F 1 "CONN_12" V 6350 6450 60  0000 C CNN
-F 2 "w_pin_strip:pin_strip_12-90" H 6300 6450 60  0001 C CNN
-F 3 "" H 6300 6450 60  0000 C CNN
-	1    6300 6450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 5900 5950 5900
 Wire Wire Line
@@ -826,78 +881,16 @@ Wire Wire Line
 	5450 6900 5950 6900
 Wire Wire Line
 	5450 7000 5950 7000
-Text Label 5650 6100 0    60   ~ 0
-pb0
-Text Label 5650 6200 0    60   ~ 0
-pb1
-Text Label 5650 6300 0    60   ~ 0
-pb2
-Text Label 5650 6400 0    60   ~ 0
-pb8
-Text Label 5650 6500 0    60   ~ 0
-pb9
-Text Label 5650 6600 0    60   ~ 0
-pb12
-Text Label 5600 6700 0    60   ~ 0
-usart3_tx
-Text Label 5600 6800 0    60   ~ 0
-usart3_rx
 Wire Wire Line
 	5450 5900 5450 5950
-$Comp
-L GND #PWR012
-U 1 1 54B2D861
-P 5450 5950
-F 0 "#PWR012" H 5450 5950 30  0001 C CNN
-F 1 "GND" H 5450 5880 30  0001 C CNN
-F 2 "" H 5450 5950 60  0000 C CNN
-F 3 "" H 5450 5950 60  0000 C CNN
-	1    5450 5950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 7000 5450 7050
-$Comp
-L GND #PWR013
-U 1 1 54B2D97E
-P 5450 7050
-F 0 "#PWR013" H 5450 7050 30  0001 C CNN
-F 1 "GND" H 5450 6980 30  0001 C CNN
-F 2 "" H 5450 7050 60  0000 C CNN
-F 3 "" H 5450 7050 60  0000 C CNN
-	1    5450 7050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5450 6900 5450 6850
-$Comp
-L +3.3V #PWR014
-U 1 1 54B2DA9C
-P 5450 6850
-F 0 "#PWR014" H 5450 6810 30  0001 C CNN
-F 1 "+3.3V" H 5450 6960 30  0000 C CNN
-F 2 "" H 5450 6850 60  0000 C CNN
-F 3 "" H 5450 6850 60  0000 C CNN
-	1    5450 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR015
-U 1 1 54B2DAED
-P 5500 6050
-F 0 "#PWR015" H 5500 6010 30  0001 C CNN
-F 1 "+3.3V" H 5500 6160 30  0000 C CNN
-F 2 "" H 5500 6050 60  0000 C CNN
-F 3 "" H 5500 6050 60  0000 C CNN
-	1    5500 6050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5500 6050 5500 6000
 Wire Wire Line
 	5500 6000 5950 6000
-Text Notes 2650 2775 0    40   ~ 0
-The sclk*, sin*, sout* and gsclk*\nare the high-speed signals. They\nshould be prioritised for optimal\nrouting.
 Wire Notes Line
 	2600 2500 3700 2500
 Wire Notes Line
@@ -906,8 +899,6 @@ Wire Notes Line
 	3700 2800 2600 2800
 Wire Notes Line
 	2600 2800 2600 2500
-Text Notes 6600 6350 0    60   ~ 0
-The pb* generic\nGPIOs could be\nswapped for some\nof the pc* if that\nsimplifies routing
 Wire Notes Line
 	6550 5850 7500 5850
 Wire Notes Line
@@ -918,7 +909,16 @@ Wire Notes Line
 	6550 6400 6550 5850
 Wire Wire Line
 	1700 1600 1450 1600
-Text Label 1450 1600 0    30   ~ 0
-lat1
-NoConn ~ 1700 2450
+Wire Wire Line
+	1450 2900 1700 2900
+Wire Wire Line
+	1450 2950 1700 2950
+Wire Wire Line
+	1450 3000 1700 3000
+Text Label 1450 2950 0    30   ~ 0
+pc14
+Text Label 1450 3000 0    30   ~ 0
+pc15
+NoConn ~ 2650 1500
+NoConn ~ 2650 2000
 $EndSCHEMATC

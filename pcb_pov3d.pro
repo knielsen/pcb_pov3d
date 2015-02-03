@@ -1,4 +1,4 @@
-update=Thu Jan 29 09:52:51 2015
+update=Tue Feb  3 00:43:33 2015
 version=1
 last_client=kicad
 [cvpcb]
@@ -116,3 +116,16 @@ LibName66=ttl_ieee
 LibName67=video
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
