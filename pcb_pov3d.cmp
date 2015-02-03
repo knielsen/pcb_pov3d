@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5391)-product   date = Wed Jan 28 18:08:15 2015
+Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5391)-product   date = Tue Feb  3 09:00:05 2015
 
 BeginCmp
 TimeStamp = /54A98F12/54A9904F;
@@ -145,6 +145,13 @@ TimeStamp = /53597959/54B1999F;
 Reference = C20;
 ValeurCmp = 100u;
 IdModule  = w_smd_cap:c_elec_6.3x5.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D081F4;
+Reference = C21;
+ValeurCmp = 100n;
+IdModule  = w_smd_cap:c_0805;
 EndCmp
 
 BeginCmp
