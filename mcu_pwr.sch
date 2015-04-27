@@ -465,16 +465,16 @@ Connection ~ 1450 1400
 Connection ~ 1450 1200
 Connection ~ 6550 1500
 Wire Wire Line
-	6550 1600 6550 1500
+	6550 1650 6550 1500
 Connection ~ 5450 2200
 Wire Wire Line
-	5450 2000 5450 2250
+	5450 1950 5450 2250
 Wire Wire Line
 	5100 1500 5750 1500
 Wire Wire Line
 	6350 1500 6850 1500
 Wire Wire Line
-	5450 1600 5450 1500
+	5450 1650 5450 1500
 Connection ~ 5450 1500
 Wire Wire Line
 	5250 1500 5250 1450
@@ -482,7 +482,7 @@ Connection ~ 5250 1500
 Wire Wire Line
 	5250 2200 6550 2200
 Wire Wire Line
-	6550 2200 6550 2000
+	6550 2200 6550 1950
 Wire Wire Line
 	5750 1600 5750 2200
 Connection ~ 5750 2200
@@ -578,9 +578,9 @@ Connection ~ 6700 1500
 Wire Wire Line
 	5400 4050 5400 4100
 Wire Wire Line
-	5400 4100 5550 4100
+	5400 4100 5650 4100
 Wire Wire Line
-	6050 4100 6250 4100
+	5950 4100 6250 4100
 Wire Wire Line
 	6900 4100 6900 4750
 Wire Wire Line
@@ -589,9 +589,9 @@ Wire Wire Line
 	6650 4550 6900 4550
 Connection ~ 6900 4550
 Wire Wire Line
-	6050 4550 6250 4550
+	5950 4550 6250 4550
 Wire Wire Line
-	5250 4550 5550 4550
+	5250 4550 5650 4550
 Text Label 5300 4550 0    40   ~ 0
 user_led
 $Comp
